@@ -4,6 +4,7 @@ form.addEventListener('submit', function(e){
    // to prevent the default behaviour
     e.preventDefault(); 
     let height = parseInt(document.querySelector('#height').value);
+    console.log(height);
     let weight = parseInt(document.querySelector('#weight').value);
     let results = document.querySelector('#results');
     results.style.padding = '30px'
